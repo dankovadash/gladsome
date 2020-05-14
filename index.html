@@ -11,8 +11,8 @@
   <meta data-vmid="og:url" name="og:url" content="https://gladsome.tv">
   <meta data-vmid="og:title" name="og:title" content="Daria Dankova | Videographer">
   <meta data-vmid="og:description" name="og:description" content="Video for life, interior, style & beauty">
-  <meta data-vmid="og:image" name="og:image" content="https://gladsome.tv/logo.png">
-  <meta data-vmid="og:image:secure_url" name="og:image:secure_url" content="https://gladsome.tv/logo.png">
+  <meta data-vmid="og:image" name="og:image" content="https://gladsome.tv/img/ava.webp">
+  <meta data-vmid="og:image:secure_url" name="og:image:secure_url" content="https://gladsome.tv/img/ava.webp">
   <meta data-vmid="og:image:alt" name="og:image:alt" content="Daria Dankova | Videographer">
   <meta data-vmid="og:image:type" name="og:image:type" content="image/png">
   <meta data-vmid="og:image:width" name="og:image:width" content="500">
@@ -20,11 +20,11 @@
   <meta data-vmid="twitter:card" name="twitter:card" content="summary">
   <meta data-vmid="twitter:title" name="twitter:title" content="Daria Dankova | Videographer">
   <meta data-vmid="twitter:description" name="twitter:description" content="Video for life, interior, style & beauty">
-  <meta data-vmid="twitter:image" name="twitter:image" content="https://gladsome.tv/logo.png">
+  <meta data-vmid="twitter:image" name="twitter:image" content="https://gladsome.tv/img/ava.webp">
   <meta data-vmid="twitter:image:alt" name="twitter:image:alt" content="Daria Dankova | Videographer">
   <title>Daria Dankova | Videographer</title>
   <link data-vmid="canonical" rel="canonical" href="https://gladsome.tv">
-  <link rel=icon href=/favicon.ico>
+  <link rel=icon href=img/favicon.png>
   <link type="text/css" rel="stylesheet" href="css/flex-grid-lite.min.css" media="screen,projection" />
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;700&display=swap"
@@ -76,7 +76,7 @@
     }
 
     .link:hover>svg {
-      fill: #eee;
+      fill: #00b3ff;
     }
 
     .pl-1 {
@@ -84,11 +84,31 @@
     }
 
     .ml-2 {
-      margin-left: 20px;
+      margin-left: 15px;
     }
 
-    .py-2-pct {
-      padding: 2% 0;
+    .mt-2 {
+      margin-top: 15px
+    }
+
+    .pa-2 {
+      padding: 15px;
+    }
+
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      background: #333;
+      /* 16:9 */
+      height: 0;
+    }
+
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
     }
   </style>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166610538-1"></script>
@@ -103,15 +123,15 @@
 
 <body>
   <div class="grid">
-    <div class="col col-sm d-flex justify-center py-2-pct">
+    <div class="col col-sm d-flex justify-center pa-2">
       <img src="img/ava.webp" alt="Daria Dankova" class="avatar">
       <div class="d-flex flex-column justify-center pl-1">
         <span class="title">Daria Dankova</span>
         <span class="title" style="font-weight: 100;">Videographer</span>
       </div>
     </div>
-    <div class="col col-sm d-flex align-center justify-center py-2-pct">
-      <a href="https://www.instagram.com/dankovadash" target="_blank" class="link">
+    <div class="col col-sm d-flex align-center justify-center pa-2">
+      <a href="https://www.instagram.com/dankovadash" target="_blank" class="link ml-2">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
           focusable="false" width="1em" height="1em"
           style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
@@ -138,6 +158,59 @@
             d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6m-2 0l-8 5l-8-5h16m0 12H4V8l8 5l8-5v10z" />
           <rect x="0" y="0" width="24" height="24" fill="rgba(0, 0, 0, 0)" /></svg>
       </a>
+    </div>
+  </div>
+  <div class="grid grid-center">
+    <div class="col col-7 col-lg pa-2">
+      <div class="video-wrapper">
+        <iframe
+          src="https://player.vimeo.com/video/411777937?title=0&amp;sidedock=0&amp;controls=0&amp;background=1&amp;byline=0&amp;portrait=0"
+          frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+      </div>
+      <div class="grid">
+        <div class="col col-6 col-sm mt-2">
+          <div class="video-wrapper">
+            <iframe
+              src="https://player.vimeo.com/video/411751543?title=0&amp;sidedock=0&amp;controls=0&amp;background=1&amp;byline=0&amp;portrait=0"
+              frameborder="0" allowfullscreen="allowfullscreen" width="100%"></iframe>
+          </div>
+        </div>
+        <div class="col col-6 col-sm mt-2">
+          <div class="video-wrapper">
+            <iframe
+              src="https://player.vimeo.com/video/411747911?title=0&amp;sidedock=0&amp;controls=0&amp;background=1&amp;byline=0&amp;portrait=0"
+              frameborder="0" allowfullscreen="allowfullscreen" width="100%"></iframe>
+          </div>
+        </div>
+        <div class="col col-6 col-sm mt-2">
+          <div class="video-wrapper">
+            <iframe
+              src="https://player.vimeo.com/video/411494764?title=0&amp;sidedock=0&amp;controls=0&amp;background=1&amp;byline=0&amp;portrait=0"
+              frameborder="0" allowfullscreen="allowfullscreen" width="100%"></iframe>
+          </div>
+        </div>
+        <div class="col col-6 col-sm mt-2">
+          <div class="video-wrapper">
+            <iframe
+              src="https://player.vimeo.com/video/367461567?title=0&amp;sidedock=0&amp;controls=0&amp;background=1&amp;byline=0&amp;portrait=0"
+              frameborder="0" allowfullscreen="allowfullscreen" width="100%"></iframe>
+          </div>
+        </div>
+        <div class="col col-6 col-sm mt-2">
+          <div class="video-wrapper">
+            <iframe
+              src="https://player.vimeo.com/video/367030006?title=0&amp;sidedock=0&amp;controls=0&amp;background=1&amp;byline=0&amp;portrait=0"
+              frameborder="0" allowfullscreen="allowfullscreen" width="100%"></iframe>
+          </div>
+        </div>
+        <div class="col col-6 sol-sm mt-2">
+          <div class="video-wrapper">
+            <iframe frameborder="0" scrolling="no" marginheight="0"
+              marginwidth="0" width="100%" type="text/html"
+              src="https://www.youtube.com/embed/XzzJE_4N61E?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0"></iframe>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </body>
