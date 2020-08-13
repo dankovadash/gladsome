@@ -103,6 +103,21 @@
       height: 0;
     }
 
+    .video-wrapper-vertical {
+      position: relative;
+      padding-bottom: 125%;
+      background: #333;
+      height: 0;
+    }
+
+    .video-wrapper iframe, .video-wrapper-vertical iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
     .video-wrapper iframe {
       position: absolute;
       top: 0;
@@ -166,9 +181,8 @@
         <iframe
           src="https://player.vimeo.com/video/411777937?title=0&amp;sidedock=0&amp;controls=0&amp;background=1&amp;byline=0&amp;portrait=0"
           frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-     
-          </div>
-        </div>
+      </div>
+      <div class="grid">
         <div class="col col-6 col-sm mt-2">
           <div class="video-wrapper">
             <iframe
@@ -197,39 +211,43 @@
               frameborder="0" allowfullscreen="allowfullscreen" width="100%"></iframe>
           </div>
         </div>
-        <div class="col col-6 col-sm mt-2">
-          <div class="video-wrapper">
-            <iframe frameborder="0" scrolling="no" marginheight="0"
-              marginwidth="0" width="100%" type="text/html"
-              src="https://www.youtube.com/embed/JZ8AF_ChTfI?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0"></iframe>
-    </div>
-  </div>
-        <div class="col col-6 col-sm mt-2">
-          <div class="video-wrapper">
+        <div class="col col-3 col-sm mt-2">
+          <div class="video-wrapper-vertical">
             <iframe
               src="https://player.vimeo.com/video/447426337?title=0&amp;sidedock=0&amp;controls=0&amp;background=1&amp;byline=0&amp;portrait=0"
-                    frameborder="0" allowfullscreen="allowfullscreen" width="100%"></iframe>
-             </div>
+              frameborder="0" allowfullscreen="allowfullscreen" width="100%"></iframe>
+          </div>
         </div>
-      <div class="col col-6 col-sm mt-2">
-          <div class="video-wrapper">
+        <div class="col col-3 col-sm mt-2">
+          <div class="video-wrapper-vertical">
             <iframe
               src="https://player.vimeo.com/video/447425498?title=0&amp;sidedock=0&amp;controls=0&amp;background=1&amp;byline=0&amp;portrait=0"
               frameborder="0" allowfullscreen="allowfullscreen" width="100%"></iframe>
-            </div>
+          </div>
         </div>
-      <div class="col col-6 col-sm mt-2">
-          <div class="video-wrapper">
+        <div class="col col-3 col-sm mt-2">
+          <div class="video-wrapper-vertical">
             <iframe
               src="https://player.vimeo.com/video/447426408?title=0&amp;sidedock=0&amp;controls=0&amp;background=1&amp;byline=0&amp;portrait=0"
               frameborder="0" allowfullscreen="allowfullscreen" width="100%"></iframe>
- </div>
-      <div class="grid">
-        <div class="col col-6 col-sm mt-2">
-          <div class="video-wrapper">
+          </div>
+        </div>
+        <div class="col col-3 col-sm mt-2">
+          <div class="video-wrapper-vertical">
             <iframe
               src="https://player.vimeo.com/video/411751543?title=0&amp;sidedock=0&amp;controls=0&amp;background=1&amp;byline=0&amp;portrait=0"
               frameborder="0" allowfullscreen="allowfullscreen" width="100%"></iframe>
+          </div>
+        </div>
+        <div class="col col-6 col-sm mt-2">
+          <div class="video-wrapper">
+            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="100%" type="text/html"
+              src="https://www.youtube.com/embed/JZ8AF_ChTfI?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
